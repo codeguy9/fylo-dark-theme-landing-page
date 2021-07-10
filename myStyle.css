@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 28%, 15%);
+    font-family: open sans;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.upper-header {
+    width: 95%;
+    margin: 30px auto 50px auto;
+    
+}
+
+.upper-header img {
+    float: left;
+    
+}
+
+
+
+ul {
+    list-style: none;
+    
+    padding: 0;
+    float: right;
+    
+    
+}
+
+
+
+ul a li {
+    display: inline;
+    padding-right: 50px;
+    color: rgb(184, 184, 184)
+    
+}
+
+ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bottom-header {
+    width: 55%;
+    margin: auto;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.bottom-header h1 {
+    color: white;
+    font-family: Raleway;
+    line-height: 1.5;
+    
+    padding-top: 20px;
+}
+
+.bottom-header img {
+    width: 80%;
+}
+
+.bottom-header p {
+    color: rgb(241, 241, 241);
+    line-height: 1.5;
+    padding-top: 30px;
+}
+
+button {
+    background: linear-gradient(to right, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
+    color: white;
+    border-radius: 20px;
+    padding: 15px 70px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.grid-container {
+    margin: 100px 0 0 0;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+   
+}
+
+.background-image {
+    position: relative;
+}
+
+.background-image img {
+    position: absolute;
+    top: -240px;
+    z-index: -1;
+    max-width: 100%;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item h3 {
+    color: white;
+    padding: 20px 0;
+}
+
+.grid-item p {
+    color: white;
+}
+
+.stay-productive-section {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.stay-productive-section img {
+    max-width: 90%;
+}
+
+.stay-productive-section h3 {
+    color: white;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    font-family: Raleway;
+    font-size: 2rem;
+}
+
+.stay-productive-section p {
+    color: white;
+    line-height: 1.5;
+}
+
+.stay-productive-section a {
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+    
+}
+
+.reviews {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+
+}
+
+.review-div {
+    background: hsl(219, 30%, 18%);
+    padding: 50px 30px 30px 30px;
+    color: white;
+    width: 31%;
+
+}
+
+.review-div p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.flex-machine {
+    display: flex;
+}
+
+.flex-machine img {
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 20px
+}
+
+.flex-machine-titles span {
+    font-size: 10px;
+}
+
+.quotes {
+    position: relative;
+}
+
+.quotes img {
+    position: absolute;
+    top: -30px;
+    z-index: -1
+}
+
+.input {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    background: hsl(218, 28%, 13%);
+    box-shadow: 10px 10px 20px black;
+    text-align: center;
+    
+
+}
+
+.email1 {
+    height: 35px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: none;
+    width: 40%;
+    margin-right: 20px
+}
+
+.started-btn {
+    background: hsl(176, 68%, 64%) ;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 35px;
+    border: none;
+    
+    cursor: pointer;
+}
+
+.input h1 {
+    color: white;
+    padding-bottom: 30px;
+    font-family: Raleway
+
+}
+
+.input p {
+    color: white;
+
+}
+
+.background-color {
+    background: hsl(218, 28%, 13%);
+    padding-bottom: 200px
+    
+}
+
+.blue-background {
+    background: hsl(218, 28%, 13%);
+    padding-bottom: 200px
+}
+
+.blue-x-background {
+    background: hsl(218, 28%, 13%);
+    padding-bottom: 200px
+}
+
+.blue-xx-background {
+    background: hsl(218, 28%, 13%);
+    padding-bottom: 200px
+}
+
+.background-footer {
+    background: hsl(216, 53%, 9%);
+    
+    
+    
+}
+
+.footer {
+    padding: 140px 50px 100px 100px;
+    display: grid;
+    grid-template-columns: 300px 200px 300px 200px;
+    grid-gap: 70px;
+    
+}
+
+.location-paragraph {
+    display: flex;
+    justify-content: center;
+}
+
+.location-paragraph p {
+    color: white;
+}
+
+.location-paragraph img {
+    padding-right: 20px;
+    width:100px;
+    height: 30px;
+}
+
+.footer-logo  {
+    padding-bottom: 30px
+}
+
+.email-and-number {
+    color: white;
+    padding-top: 80px
+}
+
+.number {
+    padding-bottom: 20px;
+}
+.number img {
+    padding-right: 20px;
+}
+
+.email img {
+    padding-right: 20px;
+}
+
+.footer-menu {
+    color: white;
+    display: flex;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.footer-menu ul a li {
+    padding-bottom: 30px;
+}
+
+.social-icons a img {
+    padding-right: 20px;
+}
