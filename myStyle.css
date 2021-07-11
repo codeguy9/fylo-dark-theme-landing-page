@@ -88,6 +88,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background:hsl(176, 68%, 64%)
+}
+
 .grid-container {
     margin: 100px 0 0 0;
     display: grid;
@@ -229,6 +233,10 @@ button {
     cursor: pointer;
 }
 
+.started-btn:hover {
+    background:hsl(198, 60%, 50%)
+}
+
 .input h1 {
     color: white;
     padding-bottom: 30px;
@@ -329,4 +337,8 @@ button {
 
 .social-icons a img {
     padding-right: 20px;
+}
+
+.social-icons {
+    padding-top: 80px
 }
